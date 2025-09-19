@@ -1,0 +1,616 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+body {
+  background: #333333;
+  color: #f9f3f3;
+  line-height: 1.6;
+}
+
+header {
+  background: #201f1f;
+  color: #fcfafa;
+  padding: 15px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+nav ul li a:hover {
+  color: #f59a07;
+}
+
+.restaurant-name{
+  background-color:"black";
+  color:#f59a07;
+  font-weight:bold;
+  text-align:center;
+  padding:20px 30px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+/* Home Page */
+.hero {
+  background-image: url('https://ocean-prime.com/wp-content/uploads/2025/08/ocean-prime-ft-lauderdale-dining-room-1920x1080-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Sections */
+section {
+  margin: 50px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f39c12;
+}
+
+.para p {
+  font-size: 25px;
+  font-weight:700px;
+  color: rgb(248, 243, 243);
+  text-align: center;
+}
+
+.para2 {
+font-size: 25px;
+  font-weight:700px;
+  color: rgb(249, 245, 245);
+  text-align: center;
+}
+
+.para3{
+	font-size: 25px;
+  font-weight:700px;
+  color: rgb(249, 245, 245);
+  text-align: center;
+}
+
+/* Hero Banner for Menu */
+.menu-hero {
+  background: url('https://l450v.alamy.com/450v/2a4d3ha/food-collage-many-photos-of-tasty-dishes-a-design-template-for-a-banner-flyer-or-restaurant-menu-2a4d3ha.jpg') center/cover no-repeat;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+  position: relative;
+}
+
+.menu-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6); /* dark overlay */
+}
+
+.menu-hero h1,
+.menu-hero p {
+  position: relative;
+}
+
+.menu-hero h1 {
+  font-size: 3rem;
+}
+
+.menu-hero p {
+  font-size: 1.2rem;
+}
+
+/* Menu Grid */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Menu Cards */
+.menu-card1 {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzjmiE4Llr3cqc4XxpXad9i0CtJUPTE0h7kQ&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card1 h3 {
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card1 p {
+  font-size: 0.95rem;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card1 span {
+  font-weight: bold;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card2 {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRIHK5RATB5EKbT8I-bgBTK48giBKRK83OpA&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card2 h3 {
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+.menu-card2 p {
+  font-size: 0.95rem;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card2 span {
+  font-weight: bold;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card3 {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt2FI7ozhrZDB1ppoU_dXKWqK6GNRqSuqEzw&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card3 h3 {
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card3 p {
+  font-size: 0.95rem;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card3 span {
+  font-weight: bold;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card4 {
+  background-image:url('https://recipes.heart.org/-/media/AHA/Recipe/Recipe-Images/Classic-Margherita-Pizza-with-Whole-Wheat-Pizza-Crust.jpg?sc_lang=en&hash=8669621DF39E46A90612215CFACFE313');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card4 h3 {
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card4 p {
+  font-size: 0.95rem;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card4 span {
+  font-weight: bold;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card5 {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwLcjzfW_Wx_jh7swBDD9xC3WD4CqAQqarFA&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card5 h3 {
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card5 p {
+  font-size: 0.95rem;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card5 span {
+  font-weight: bold;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card6 {
+  background-image:url('https://www.bigbasket.com/media/uploads/recipe/w-l/594_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card6 h3 {
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card6 p {
+  font-size: 0.95rem;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card6 span {
+  font-weight: bold;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card7 {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi9ogI7v6gVuekfDeL9UlVQF1dlplpwtXXTg&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card7 h3 {
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card7 p {
+  font-size: 0.95rem;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card7 span {
+  font-weight: bold;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card8 {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjfkMhG08uipHvJyteK9AhTWeD0jH4OEgBxw&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card8 h3 {
+  margin-bottom: 10px;
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card8 p {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card8 span {
+  font-weight: bold;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card9 {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlDrCKukUmMWCl4c-sDpSj5gQUk4CzHE4Bg&sCold Coffee');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card9 h3 {
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card9 p {
+  font-size: 0.95rem;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card9 span {
+  font-weight: bold;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card10 {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcrvtZwsxIyW-YUxKFtRT_ab7P9I0bXMMY_w&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card10 h3 {
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card10 p {
+  font-size: 0.95rem;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card10 span {
+  font-weight: bold;
+ color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card11 {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR9Py8EJSwQjUABwvh4myFoma6LACUuWgHuw&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card11 h3 {
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card11 p {
+  font-size: 0.95rem;
+ color: #eee8e8;
+  background: rgba(0,0,0,0.5);;
+}
+
+.menu-card11 span {
+  font-weight: bold;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);;
+}
+
+.menu-card12 {
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWJmbqEoj8i-DAHIRjRp-py93dNBwg1oj6-g&s');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-card12 h3 {
+  color: #f6c16c;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card12 p {
+  font-size: 0.95rem;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+.menu-card12 span {
+  font-weight: bold;
+  color: #eee8e8;
+  background: rgba(0,0,0,0.5);
+}
+
+/* reservation page */
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container p {
+  text-align:center;
+  font: size 30px;
+  color: rgb(248, 214, 152)
+}
+
+input, select, textarea, button {
+  padding: 10px;
+}
+
+button {
+  background: #f39c12;
+  color: white;
+  cursor: pointer;
+  border: solid rgb(76, 50, 1);
+}
+
+.seats {
+  display: grid;
+  grid-template-columns: repeat(5, 70px);
+  gap: 25px;
+  justify-content: center;
+}
+
+.seat {
+  width: 60px;
+  height: 60px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.seat.booked {
+  background: #f39c12;
+  color: white;
+}
+
+/* gallery */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #161616;
+  color: #fbf6f6;
+}
+
+/* Hero Section */
+.gallery-hero {
+  color: rgb(254, 252, 252);
+  text-align: center;
+  padding: 80px;
+  position: relative;
+}
+
+.gallery-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(220, 218, 218, 0.4);
+}
+
+.gallery-hero h2,
+.gallery-hero p {
+  position: relative;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 35px;
+  padding: 40px;
+}
+
+.gallery-item {
+  position: relative;
+  border-radius: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.gallery-item:hover .caption {
+  opacity: 1;
+}
